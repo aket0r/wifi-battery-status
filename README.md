@@ -6,10 +6,13 @@
 > [!IMPORTANT]
 > Please follow the instructions step by step
 
-1. Install [Node Js]([https://pages.github.com/](https://nodejs.org/en/download/package-manager))
-2. Download this project [^1]
-3. Open terminal in project
-4. Enter commands in terminal [^2].
+1. Install [Node Js](https://nodejs.org/en/download/package-manager)
+2. Set password in [index.js](https://github.com/aket0r/wifi-battery-status/blob/main/index.js) file. Line number 30 (`await page.$eval('input', el => el.value = 'YOUR_PASSWORD');`)
+3. Download this project [^1]
+4. Open terminal in project
+5. Enter commands in terminal [^2].
+
+![image](https://github.com/user-attachments/assets/bffad8d3-6587-4c9d-88aa-75463be6f40f)
 
 [^1]: Do not enter commands in new terminal
 [^2]: Follow commands one by one
@@ -36,3 +39,8 @@ In the project folder you will have a new folder named **router-status-win32-x64
 - [x] Windows 10+ x64/x32
 - [ ] Ubuntu (Not tested)
 - [ ] MacOS (Not tested)
+
+## Preview
+![image](https://github.com/user-attachments/assets/441fb525-d38d-48ec-87c6-3d7e43ae2d51)
+![image](https://github.com/user-attachments/assets/e022b41c-6926-4971-932f-2e0722be35ed)
+
