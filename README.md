@@ -30,6 +30,7 @@ In the project folder you will have a new folder named **router-status-win32-x64
 > Rules
 > 1. The application updates data every 5 minutes
 > 2. If the application is running, you will be deauthorized from the browser if you are logged in when the application is launched (the deauthorization interval is 5 minutes) since the application is logging in
+> 3. There is a problem with compiling the icon, for some unknown reason it does not want to be installed on the application. You can use the npm run package command to build the application with the icon, but in this case there will be no sound effect that plays every 5 minutes to notify the user that the data has been updated.
 
 ## Supported OS
 - [x] Windows 10+ x64/x32
