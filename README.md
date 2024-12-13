@@ -24,7 +24,7 @@
   npm i fs
 ```
 
-In the project folder you will have a new folder named **release-builds** inside there will be a folder with the application, all you have to do is launch the application itself, after which the application icon will appear in your tray.
+In the project folder you will have a new folder named **router-status-win32-x64** inside there will be a folder with the application, all you have to do is launch the application itself, after which the application icon will appear in your tray.
 
 > [!NOTE]
 > Rules
