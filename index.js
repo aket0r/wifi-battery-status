@@ -27,7 +27,7 @@ async function checkingBatteryStatus() {
         await page.goto('http://192.168.0.1/login.html', {waitUntil: 'networkidle2'});
         // await page.waitForNavigation();
         await page.waitForSelector('#password');
-        await page.$eval('input', el => el.value = '');
+        await page.$eval('input', el => el.value = 'YOUR_PASSWORD'); // ENTER HERE YOUR PASSWORD
         await page.click('button');
         await page.waitForSelector('#topElectricity');
         await page.waitForNavigation();
