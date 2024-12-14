@@ -1,5 +1,5 @@
 {
-  "name": "router-status",
+  "name": "network-observer",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -423,7 +423,13 @@
   },
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager . \"Wifi Batttery Status\" --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/icons/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Wifi Batttery Status\""
+    "package-win": "electron-packager . \"Network Observer\" --icon=assets/icons/icon.ico --out=release-builds --version-string.ProductName=\"Network Observer\"",
+    "debug": "electron . --enable-logging"
+  },
+  "build": {
+    "files": [
+      "assets/sounds/update.mp3"
+    ]
   },
   "author": "Aket0r",
   "license": "ISC",
