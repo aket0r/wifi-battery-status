@@ -26,7 +26,8 @@
   npm i electron-packager
   npm i fs
 ```
-
+Run **build.cmd** file
+<br>
 In the project folder you will have a new folder named **router-status-win32-x64** inside there will be application, all you have to do is launch the application itself, after which the application icon will appear in your tray.
 
 > [!NOTE]
