@@ -1,4 +1,4 @@
-# Remote Router Battery Status for TP-Link
+# Remote Router Status for TP-Link
 
 > [!WARNING]
 > This application only works with TP-Link type router
