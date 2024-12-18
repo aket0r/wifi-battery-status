@@ -52,7 +52,7 @@ async function createWindow() {
 
     appTray.addListener("click", function() {
         win = new BrowserWindow({
-            resizable: true,
+            resizable: false,
             width: 350,
             height: 200,
             autoHideMenuBar: true,
