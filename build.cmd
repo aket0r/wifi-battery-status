@@ -1,1 +1,1 @@
-npx @electron/packager .
+npm run package-win
