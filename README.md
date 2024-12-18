@@ -7,7 +7,7 @@
 > Please follow the instructions step by step
 
 1. Install [Node Js](https://nodejs.org/en/download/prebuilt-installer)
-2. Set password in [index.js](https://github.com/aket0r/wifi-battery-status/blob/main/index.js) file. Line number 30 (`await page.$eval('input', el => el.value = 'YOUR_PASSWORD');`)
+2. Set password in [index.js](https://github.com/aket0r/wifi-battery-status/blob/main/index.js) file. Line number 28 (`await page.$eval('input', el => el.value = 'YOUR_PASSWORD');`)
 3. Download this project [^1]
 4. Open terminal in project
 5. Enter commands in terminal [^2].
