@@ -31,7 +31,6 @@ Run **build.cmd** file
 In the project folder you will have a new folder named **router-status-win32-x64** inside there will be application, all you have to do is launch the application itself, after which the application icon will appear in your tray.
 
 > [!NOTE]
-> Rules
 > 1. The application updates data every 5 minutes
 > 2. If the application is running, you will be deauthorized from the browser if you are logged in when the application is launched (the deauthorization interval is 5 minutes) since the application is logging in
 
